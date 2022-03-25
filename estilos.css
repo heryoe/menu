@@ -27,6 +27,16 @@
                   /*--------------*/
                   /* Menú[letras] */
                   /*--------------*/
+
+                 .seccion{
+                    width: 200px;
+                    height: 245px;
+                    background-color: gray;
+                    border-radius: 40px;
+                 }
+
+
+
                      .menu1{
                 font-weight: bold;
                   font-size: 20px;
@@ -80,11 +90,7 @@
                   font-size: 20px;         
                            }
 
-                           .regreso{                               
-                            color: white;
-                            }
-
-
+                   .regreso{color: white;}
 
 
 
