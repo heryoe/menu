@@ -28,14 +28,12 @@
                   /* Menú[letras] */
                   /*--------------*/
 
-                 .seccion{
-                    width: 200px;
-                    height: 245px;
-                    background-color: gray;
-                    border-radius: 40px;
-                 }
-
-
+                   .seccion{
+                      width: 200px;
+                     height: 245px;
+           background-color: gray;
+              border-radius: 40px;
+                           }
 
                      .menu1{
                 font-weight: bold;
@@ -94,5 +92,23 @@
 
 
 
+                      /*-----*/
+                      /* Pie */
+                      /*-----*/
+                     .fecha{font-weight: bold;}    
+                   .version{display: none;font-size: 70px;}
 
-                     .fecha{font-weight: bold;}                           
+
+
+
+              /*-----------------------*/
+              /* Ajuste a Dispositivos */
+              /*-----------------------*/
+         @media screen and (min-width: 700px) /*Todo*/ 
+                           { 
+                     header{display: none;}
+                      aside{display: none;}
+                    section{display: none;}
+                     footer{display: none;}
+                   .version{display: block;}   
+                           }
