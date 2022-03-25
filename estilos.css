@@ -1,0 +1,92 @@
+                     /*--------*/
+                     /* Cuerpo */
+                     /*--------*/
+                       body{
+                 background: url(mar2.jpg);
+            background-size: 200%;
+                           }  
+                
+
+                  /*------------*/
+                  /* Encabezado */
+                  /*------------*/
+                     .titu1{
+           background-color: blue;
+                      color: white;
+                  font-size: 25px;
+                           }
+
+                     .titu2{
+                  font-size: 20px;
+                      color: black;
+                font-weight: bold;
+                           }
+
+
+
+                  /*--------------*/
+                  /* Menú[letras] */
+                  /*--------------*/
+                     .menu1{
+                font-weight: bold;
+                  font-size: 20px;
+                      color: darkblue;
+                           }
+
+                   .precios{
+                    display: block;
+                  font-size: 20px;
+                      color: yellow;
+                           }
+
+
+
+                    /*------------*/
+                    /* Marquesina */
+                    /*------------*/
+                    .marque{
+                        margin-top: -20px;
+                      width: 10px;
+                     height: 10px;
+           background-color: red;
+              border-radius: 50px;
+        animation-direction: alternate; 
+             animation-name: caminar_marque;
+         animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.0, 0.0, 1.0, 1.0)
+                           }
+
+  @keyframes caminar_marque{
+                       100%{margin-left: 97%;}
+                           }
+
+
+
+                  /*----------------*/
+                  /* Menú[imágenes] */
+                  /*----------------*/
+                     .menu2{
+                      width: 300px;
+                     border: 4px solid blue;
+    border-top-right-radius: 50px;
+  border-bottom-left-radius: 70px;
+     border-top-left-radius: 20px;
+ border-bottom-right-radius: 20px;
+                           }
+
+                     .menu3{
+                      color: white;
+                  font-size: 20px;         
+                           }
+
+                           .regreso{                               
+                            color: white;
+                            }
+
+
+
+
+
+
+                     .fecha{font-weight: bold;}                           
