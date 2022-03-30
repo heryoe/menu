@@ -28,24 +28,24 @@
                   /*--------------*/
                   /* Menú[letras] */
                   /*--------------*/
-
-                   .seccion{
-                      width: 200px;
-                     height: 245px;
-           background-color: gray;
-              border-radius: 40px;
+                     .marco{
+                      width: 250px;
+                     height: 45px;
+           background-color: lightgreen;
+              border-radius: 70px;
                            }
 
                      .menu1{
                 font-weight: bold;
                   font-size: 20px;
-                      color: darkblue;
+                      color: black;
                            }
 
                    .precios{
                     display: block;
                   font-size: 20px;
-                      color: yellow;
+                      color: blue;
+                font-weight: bold;
                            }
 
 
@@ -54,7 +54,7 @@
                     /* Marquesina */
                     /*------------*/
                     .marque{
-                        margin-top: -20px;
+                 margin-top: -20px;
                       width: 10px;
                      height: 10px;
            background-color: red;
