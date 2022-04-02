@@ -151,7 +151,7 @@
               /*-----------------------*/
               /* Ajuste a Dispositivos */
               /*-----------------------*/
-         @media screen and (min-width: 700px) /*Todo*/ 
+         @media screen and (min-width: 730px) /*Todo*/ 
                            { 
                      header{display: none;}
                       aside{display: none;}
