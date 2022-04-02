@@ -1,0 +1,162 @@
+                     /*--------*/
+                     /* Cuerpo */
+                     /*--------*/
+                       body{
+                 background: url(mar2.jpg);
+            background-size: 200%;
+                           }  
+                
+
+                  /*------------*/
+                  /* Encabezado */
+                  /*------------*/
+                     .titu1{
+              border-radius: 30px;
+           background-color: blue;
+                      color: white;
+                  font-size: 25px;
+                           }
+
+                     .titu2{
+                  font-size: 15px;
+                      color: black;
+                font-weight: bold;
+              border-radius: 30px;
+                           }
+
+
+
+                  /*--------------*/
+                  /* Menú[letras] */
+                  /*--------------*/
+                     .marco{
+                      width: 250px;
+                     height: 45px;
+           background-color: lightgreen;
+              border-radius: 70px;
+                           }
+
+                     .menu1{
+                font-weight: bold;
+                  font-size: 20px;
+                      color: black;
+                           }
+
+                   .precios{
+                    display: block;
+                  font-size: 20px;
+                      color: blue;
+                font-weight: bold;
+                           }
+
+                     .tipos{
+                  font-size: 20px;
+                      width: 110px;
+                     height: 25px;
+           background-color: red;
+                      color: yellow;
+ border-bottom-right-radius: 20px;
+    border-top-right-radius: 10px;
+  border-bottom-left-radius: 20px;
+     border-top-left-radius: 10px;
+                           }
+
+
+
+                    /*------------*/
+                    /* Marquesina */
+                    /*------------*/
+                    .marque{
+                 margin-top: -20px;
+                      width: 10px;
+                     height: 10px;
+           background-color: red;
+              border-radius: 50px;
+        animation-direction: alternate; 
+             animation-name: caminar_marque;
+         animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.0, 0.0, 1.0, 1.0)
+                           }
+
+  @keyframes caminar_marque{
+                       100%{margin-left: 97%;}
+                           }
+
+
+
+                  /*----------------*/
+                  /* Menú[imágenes] */
+                  /*----------------*/
+                     .menu2{
+                      width: 300px;
+                     border: 4px solid blue;
+    border-top-right-radius: 50px;
+  border-bottom-left-radius: 70px;
+     border-top-left-radius: 20px;
+ border-bottom-right-radius: 20px;
+                           }
+
+                     .menu3{
+                      color: black;
+                  font-size: 20px; 
+                      width: 240px;
+                     height: 25px;
+           background-color: lightgreen;
+    border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;        
+                           }
+
+                     .regre{
+                      width: 80px;
+                     height: 25px;
+           background-color: lightgreen;
+     border-top-left-radius: 20px;
+ border-bottom-right-radius: 20px;
+                           }
+          
+                   .regreso{color: black;}
+
+
+
+                      /*-----*/
+                      /* Pie */
+                      /*-----*/
+                   .version{font-size: 70px;display: none;}
+                  .version1{font-size: 30px;display: none}
+                 
+                     .fecha{
+                font-weight: bold;
+              border-radius: 40px;
+                           }
+
+                    .fecha1{
+                      color: yellow;
+                      width: 200px;
+                     height: 73px;
+           background-color: red;
+                  font-size: 20px;
+              border-radius: 40px;
+                 margin-top: -130px;
+                    opacity: 0;
+        transition-property: opacity;
+        transition-duration: 1.5s;
+                           }
+
+        .fe:hover > .fecha1{opacity: 1;}
+
+
+
+
+              /*-----------------------*/
+              /* Ajuste a Dispositivos */
+              /*-----------------------*/
+         @media screen and (min-width: 700px) /*Todo*/ 
+                           { 
+                     header{display: none;}
+                      aside{display: none;}
+                    section{display: none;}
+                     footer{display: none;}
+                   .version{display: block;} 
+                  .version1{display: block;}  
+                           }
