@@ -89,6 +89,8 @@
                  /*-----------------*/
                  /* Paneo de Imagen */
                  /*-----------------*/
+                   .panora3{display: none;}
+
                    .panora1{
                  margin-top: 10px;
                       width: 300px;
@@ -228,6 +230,7 @@
 
 
 
+
               /*-----------------------*/
               /* Ajuste a Dispositivos */
               /*-----------------------*/
@@ -315,6 +318,13 @@
                            }
 
                     .marque{animation-duration: 5s;}
-
                        .ws1{margin-left: -2500px;}
+                   .panora1{display: none;}
+
+                   .panora3{display: block;
+                      width: 95%;
+                     height: 500px;
+                     border: 8px double blue;
+              border-radius: 40px;
+                           }
                            }
