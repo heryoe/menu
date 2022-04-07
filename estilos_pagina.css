@@ -346,7 +346,12 @@
                        .ws1{margin-left: -2500px;}
                    .panora1{display: none;}
 
-                   .panora3{display: block;
+                   .panora3{
+                    display: block;
+           background-image: url(paneo.jpg);
+      background-attachment: fixed;
+            background-size: cover;
+        background-position: bottom;
                       width: 95%;
                      height: 500px;
                      border: 8px double blue;
